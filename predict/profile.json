@@ -86,13 +86,13 @@
   "autosens_min": 0.9, 
   "max_daily_safety_multiplier": 5, 
   "min_5m_carbimpact": 4, 
-  "current_basal": 1.3, 
+  "current_basal": 1.1, 
   "max_basal": 3.25, 
   "type": "current", 
   "bolussnooze_dia_divisor": 2, 
   "dia": 3, 
   "autosens_adjust_targets": true, 
-  "carb_ratio": 9.6, 
+  "carb_ratio": 10.799999999999999, 
   "model": "723", 
   "autosens_max": 1.1
 }
