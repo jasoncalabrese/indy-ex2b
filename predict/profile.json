@@ -8,7 +8,7 @@
       {
         "endOffset": 1440, 
         "i": 0, 
-        "sensitivity": 95, 
+        "sensitivity": 100, 
         "start": "00:00:00", 
         "offset": 0, 
         "x": 0
@@ -18,7 +18,7 @@
   }, 
   "current_basal_safety_multiplier": 6, 
   "override_high_target_with_low": true, 
-  "sens": 95, 
+  "sens": 100, 
   "carbratio_adjustmentratio": 0.6, 
   "basalprofile": [
     {
@@ -92,7 +92,7 @@
   "bolussnooze_dia_divisor": 2, 
   "dia": 3, 
   "autosens_adjust_targets": true, 
-  "carb_ratio": 9.6, 
+  "carb_ratio": 10.799999999999999, 
   "model": "723", 
   "autosens_max": 1.1
 }
