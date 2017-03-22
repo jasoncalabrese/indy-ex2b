@@ -9,7 +9,7 @@
       {
         "endOffset": 1440, 
         "i": 0, 
-        "sensitivity": 100, 
+        "sensitivity": 95, 
         "start": "00:00:00", 
         "offset": 0, 
         "x": 0
@@ -19,7 +19,7 @@
   }, 
   "current_basal_safety_multiplier": 6, 
   "override_high_target_with_low": true, 
-  "sens": 100, 
+  "sens": 95, 
   "carbratio_adjustmentratio": 0.8, 
   "basalprofile": [
     {
