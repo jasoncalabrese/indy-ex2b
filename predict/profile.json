@@ -83,7 +83,7 @@
       "minutes": 1260
     }
   ], 
-  "max_bg": 140, 
+  "max_bg": 120, 
   "autosens_min": 0.8, 
   "max_daily_safety_multiplier": 5, 
   "min_5m_carbimpact": 4, 
