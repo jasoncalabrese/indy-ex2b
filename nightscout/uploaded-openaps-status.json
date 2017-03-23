@@ -1,15 +1,15 @@
 [
   {
-    "created_at": "2017-03-23T02:39:00.078Z", 
+    "created_at": "2017-03-23T02:48:38.557Z", 
     "mmtune": {
       "scanDetails": [
         [
           null, 
           0, 
-          -67.8
+          -60.4
         ]
       ], 
-      "timestamp": "2017-03-23T02:38:45.483Z"
+      "timestamp": "2017-03-23T02:48:24.866Z"
     }, 
     "pump": {
       "battery": {
@@ -18,88 +18,32 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-03-23T02:35:24.702Z", 
+        "timestamp": "2017-03-23T02:44:32.835Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 63.1, 
-      "clock": "2017-03-22T19:35:08-07:00"
+      "reservoir": 62.6, 
+      "clock": "2017-03-22T19:44:17-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 142, 
-        "temp": "absolute", 
-        "snoozeBG": -25, 
-        "timestamp": "2017-03-23T02:38:09.063Z", 
-        "rate": 0, 
-        "reason": "COB: 2, Dev: 7, BGI: -10.21, ISF: 95, Target: 80; Eventual BG 39 < 80, setting -4.425U/hr. Setting neutral temp basal of 0U/hr", 
-        "COB": 2, 
-        "eventualBG": 39, 
-        "duration": 30, 
-        "tick": -9, 
-        "IOB": 1.827
+        "timestamp": "2017-03-23T02:48:17.016Z", 
+        "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Wed Mar 22 2017 19:35:24 GMT-0700 (PDT) but your system time is Wed Mar 22 2017 19:48:16 GMT-0700 (PDT)"
       }, 
       "iob": {
-        "netbasalinsulin": 3, 
-        "timestamp": "2017-03-23T02:35:08.000Z", 
-        "activity": 0.0215, 
-        "basaliob": 1.772, 
-        "hightempinsulin": 3, 
-        "bolussnooze": 0, 
-        "iob": 1.827
+        "netbasalinsulin": 1.05, 
+        "timestamp": "2017-03-23T02:44:17.000Z", 
+        "activity": 0.0147, 
+        "basaliob": 0.683, 
+        "hightempinsulin": 1.2, 
+        "bolussnooze": 2.571, 
+        "iob": 3.339
       }, 
       "enacted": {
         "bg": 142, 
         "temp": "absolute", 
         "snoozeBG": -25, 
         "recieved": true, 
-        "predBGs": {
-          "COB": [
-            142, 
-            133, 
-            124, 
-            114, 
-            105, 
-            96, 
-            86, 
-            77, 
-            69, 
-            60, 
-            52, 
-            44, 
-            39
-          ], 
-          "aCOB": [
-            142, 
-            138, 
-            130, 
-            120, 
-            109, 
-            99, 
-            89, 
-            79, 
-            70, 
-            60, 
-            52, 
-            43, 
-            39
-          ], 
-          "IOB": [
-            142, 
-            133, 
-            124, 
-            114, 
-            105, 
-            95, 
-            85, 
-            76, 
-            67, 
-            58, 
-            49, 
-            41, 
-            39
-          ]
-        }, 
         "reason": "COB: 2, Dev: 7, BGI: -10.21, ISF: 95, Target: 80; Eventual BG 39 < 80, setting -4.425U/hr. Setting neutral temp basal of 0U/hr", 
         "rate": 0, 
         "COB": 2, 
@@ -111,10 +55,10 @@
       }
     }, 
     "uploader": {
-      "battery": 71, 
-      "batteryVoltage": 3887
+      "battery": 70, 
+      "batteryVoltage": 3883
     }, 
     "device": "openaps://indy-ex2", 
-    "_id": "58d335448259992f6e362012"
+    "_id": "58d337868259992f6e362013"
   }
 ]
