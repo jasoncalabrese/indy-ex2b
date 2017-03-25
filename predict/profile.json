@@ -93,6 +93,6 @@
   "bolussnooze_dia_divisor": 2, 
   "dia": 3, 
   "autosens_adjust_targets": true, 
-  "carb_ratio": 7.199999999999999, 
+  "carb_ratio": 10.799999999999999, 
   "autosens_max": 1.1
 }
