@@ -7,30 +7,76 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-03-28T08:00:24.482Z", 
+      "timestamp": "2017-03-28T08:13:10.212Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 98.875, 
-    "clock": "2017-03-28T01:00:10-07:00"
+    "reservoir": 98.6, 
+    "clock": "2017-03-28T01:12:42-07:00"
   }, 
   "uploader": {
     "battery": 70, 
-    "batteryVoltage": 3880
+    "batteryVoltage": 3876
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2017-03-28T08:03:21.504Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Tue Mar 28 2017 00:50:13 GMT-0700 (PDT) but your system time is Tue Mar 28 2017 01:03:21 GMT-0700 (PDT)"
+      "bg": 96, 
+      "temp": "absolute", 
+      "snoozeBG": 107, 
+      "timestamp": "2017-03-28T08:17:15.525Z", 
+      "predBGs": {
+        "IOB": [
+          96, 
+          97, 
+          97, 
+          98, 
+          99, 
+          100, 
+          101, 
+          102, 
+          104, 
+          105, 
+          105, 
+          106, 
+          107, 
+          108, 
+          109, 
+          110, 
+          110, 
+          111, 
+          112, 
+          112, 
+          113, 
+          114, 
+          114, 
+          114, 
+          115, 
+          115, 
+          115, 
+          115, 
+          115, 
+          115, 
+          115, 
+          115, 
+          115, 
+          115, 
+          116
+        ]
+      }, 
+      "reason": "COB: 0, Dev: -8, BGI: 1.99, ISF: 102, Target: 103; Eventual BG 107 > 103 but Min. Delta 0.63 < Exp. Delta 1.8, temp 0.9 ~ req 0.9U/hr", 
+      "COB": 0, 
+      "eventualBG": 107, 
+      "tick": "+3", 
+      "IOB": -0.198
     }, 
     "iob": {
-      "netbasalinsulin": -0.85, 
-      "timestamp": "2017-03-28T08:00:10.000Z", 
-      "activity": -0.0045, 
-      "basaliob": -0.299, 
-      "hightempinsulin": 0.15, 
+      "netbasalinsulin": -0.75, 
+      "timestamp": "2017-03-28T08:12:42.000Z", 
+      "activity": -0.0039, 
+      "basaliob": -0.198, 
+      "hightempinsulin": 0.2, 
       "bolussnooze": 0, 
-      "iob": -0.299
+      "iob": -0.198
     }, 
     "enacted": {
       "bg": 98, 
@@ -52,9 +98,9 @@
       [
         null, 
         0, 
-        -79
+        -80.4
       ]
     ], 
-    "timestamp": "2017-03-28T08:03:29.355Z"
+    "timestamp": "2017-03-28T08:17:23.435Z"
   }
 }
