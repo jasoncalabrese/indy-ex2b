@@ -1,5 +1,35 @@
 [
   {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2017-04-01T18:31:47 head[2], body[0] op[0x0a]", 
+    "timestamp": "2017-04-01T18:31:47-07:00", 
+    "_body": "", 
+    "glucoseType": "Finger", 
+    "_head": "0a2e", 
+    "enteredBy": "openaps://medtronic/723", 
+    "amount": 46, 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH", 
+    "eventType": "BG Check", 
+    "created_at": "2017-04-01T18:31:47-07:00", 
+    "_date": "6f1f326111", 
+    "glucose": 46
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2017-04-01T18:31:08 head[2], body[0] op[0x0a]", 
+    "timestamp": "2017-04-01T18:31:08-07:00", 
+    "_body": "", 
+    "glucoseType": "Finger", 
+    "_head": "0a28", 
+    "enteredBy": "openaps://medtronic/723", 
+    "amount": 40, 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH", 
+    "eventType": "BG Check", 
+    "created_at": "2017-04-01T18:31:08-07:00", 
+    "_date": "481f326111", 
+    "glucose": 40
+  }, 
+  {
     "raw_rate": {
       "_type": "TempBasal", 
       "temp": "absolute", 
