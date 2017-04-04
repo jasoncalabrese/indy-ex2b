@@ -3,72 +3,78 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.44
+      "voltage": 1.43
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-04-04T10:55:44.631Z", 
+      "timestamp": "2017-04-04T11:05:32.328Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 70.7, 
-    "clock": "2017-04-04T03:55:16-07:00"
+    "reservoir": 70.6, 
+    "clock": "2017-04-04T04:05:15-07:00"
   }, 
   "uploader": {
-    "battery": 68, 
-    "batteryVoltage": 3857
+    "battery": 70, 
+    "batteryVoltage": 3875
   }, 
   "openaps": {
     "suggested": {
-      "bg": 136, 
+      "bg": 137, 
       "temp": "absolute", 
-      "snoozeBG": 105, 
-      "timestamp": "2017-04-04T10:59:19.524Z", 
+      "snoozeBG": 121, 
+      "timestamp": "2017-04-04T11:09:32.040Z", 
       "predBGs": {
         "IOB": [
-          136, 
+          137, 
+          135, 
           133, 
+          131, 
           129, 
-          126, 
+          127, 
+          125, 
           123, 
+          121, 
           120, 
-          117, 
+          119, 
+          118, 
+          116, 
+          116, 
+          115, 
           114, 
+          113, 
+          113, 
+          112, 
           111, 
+          111, 
+          110, 
+          110, 
+          110, 
+          110, 
           109, 
-          107, 
-          106, 
-          105, 
-          104, 
-          103, 
-          102, 
-          102, 
-          102, 
-          101, 
-          101, 
-          101, 
-          101, 
-          101, 
-          101, 
-          101, 
-          101, 
-          102
+          109, 
+          109, 
+          109, 
+          109, 
+          109, 
+          109, 
+          108
         ]
       }, 
-      "reason": "COB: 0, Dev: -2, BGI: -3.07, ISF: 93, Target: 99; Eventual BG 105 >= 99, temp 0.575<0.6U/hr, but 22m left and 0.575 ~ req 0.6U/hr: no action required", 
+      "reason": "COB: 0, Dev: 7, BGI: -3.11, ISF: 94, Target: 100; Eventual BG 121 >= 100, temp 0.75<0.85U/hr, but 29m left and 0.75 ~ req 0.85U/hr: no action required", 
       "COB": 0, 
-      "eventualBG": 105, 
-      "tick": -2, 
-      "IOB": 0.312
+      "eventualBG": 121, 
+      "tick": -1, 
+      "IOB": 0.246
     }, 
     "iob": {
-      "netbasalinsulin": 0.35, 
-      "timestamp": "2017-04-04T10:55:16.000Z", 
+      "netbasalinsulin": 0.5, 
+      "timestamp": "2017-04-04T11:05:15.000Z", 
       "activity": 0.0066, 
-      "basaliob": 0.312, 
+      "basaliob": 0.246, 
       "hightempinsulin": 1.15, 
       "bolussnooze": 0, 
-      "iob": 0.312
+      "iob": 0.246
     }, 
     "enacted": {
       "bg": 157, 
@@ -90,9 +96,9 @@
       [
         null, 
         0, 
-        -85.8
+        -86.2
       ]
     ], 
-    "timestamp": "2017-04-04T10:59:27.384Z"
+    "timestamp": "2017-04-04T11:09:39.900Z"
   }
 }
