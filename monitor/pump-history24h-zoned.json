@@ -1,5 +1,43 @@
 [
   {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2017-04-05T16:50:55 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-04-05T16:50:55-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "7732104511"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-04-05T16:50:55 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-04-05T16:50:55-07:00", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "7732104511"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2017-04-05T16:49:32 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-04-05T16:49:32-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "6031104511"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-04-05T16:49:32 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-04-05T16:49:32-07:00", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "6031104511"
+  }, 
+  {
     "_type": "Bolus", 
     "_description": "Bolus 2017-04-05T16:33:47 head[8], body[0] op[0x01]", 
     "timestamp": "2017-04-05T16:33:47-07:00", 
@@ -4569,43 +4607,5 @@
     "_head": "3317", 
     "rate": 0.575, 
     "_date": "6b010e4411"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2017-04-04T13:48:28 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-04-04T13:48:28-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "5c300d4411"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-04-04T13:48:28 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-04-04T13:48:28-07:00", 
-    "_body": "00", 
-    "_head": "3317", 
-    "rate": 0.575, 
-    "_date": "5c300d4411"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2017-04-04T13:36:21 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-04-04T13:36:21-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "55240d4411"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-04-04T13:36:21 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-04-04T13:36:21-07:00", 
-    "_body": "00", 
-    "_head": "3332", 
-    "rate": 1.25, 
-    "_date": "55240d4411"
   }
 ]
