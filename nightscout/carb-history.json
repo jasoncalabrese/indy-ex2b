@@ -380,18 +380,5 @@
     "enteredBy": "Maker", 
     "insulin": null, 
     "_id": "58e2dc0d65110bbfc195ff9c"
-  }, 
-  {
-    "carbs": 5, 
-    "eventType": "<none>", 
-    "created_at": "2017-04-03T21:35:00.000Z", 
-    "glucoseType": "Finger", 
-    "enteredBy": "Health Office", 
-    "units": "mg/dL", 
-    "reason": "", 
-    "insulin": null, 
-    "duration": 0, 
-    "_id": "58e2c1c965110bbfc195ff78", 
-    "glucose": 65
   }
 ]
