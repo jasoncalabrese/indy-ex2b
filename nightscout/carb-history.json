@@ -393,18 +393,5 @@
     "duration": 0, 
     "_id": "58e2c1c965110bbfc195ff78", 
     "glucose": 65
-  }, 
-  {
-    "carbs": 15, 
-    "eventType": "<none>", 
-    "created_at": "2017-04-03T21:23:00.000Z", 
-    "glucoseType": "Finger", 
-    "enteredBy": "Health Office", 
-    "units": "mg/dL", 
-    "reason": "", 
-    "insulin": null, 
-    "duration": 0, 
-    "_id": "58e2c1a265110bbfc195ff77", 
-    "glucose": 56
   }
 ]
