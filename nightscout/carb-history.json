@@ -34,6 +34,69 @@
     "_id": "58e564c565110bbfc196049a"
   }, 
   {
+    "carbs": 40, 
+    "ratio": "16", 
+    "bolus": {
+      "_type": "Bolus", 
+      "_description": "Bolus 2017-04-05T20:53:05 head[8], body[0] op[0x01]", 
+      "timestamp": "2017-04-05T20:53:05-07:00", 
+      "_body": "", 
+      "appended": [
+        {
+          "_type": "UnabsorbedInsulinBolus", 
+          "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+          "_body": "", 
+          "_head": "5c080cedc00c0bd0", 
+          "data": [
+            {
+              "amount": 0.3, 
+              "age": 237
+            }, 
+            {
+              "amount": 0.3, 
+              "age": 267
+            }
+          ], 
+          "_date": ""
+        }
+      ], 
+      "programmed": 2.35, 
+      "_head": "01005e005e000000", 
+      "amount": 2.35, 
+      "unabsorbed": 0, 
+      "duration": 0, 
+      "type": "normal", 
+      "_date": "4535340511"
+    }, 
+    "timestamp": "2017-04-05T20:53:05-07:00", 
+    "created_at": "2017-04-05T20:53:05-07:00", 
+    "wizard": {
+      "_type": "BolusWizard", 
+      "bg": 0, 
+      "bg_target_low": 100, 
+      "_description": "BolusWizard 2017-04-05T20:53:05 head[2], body[15] op[0x5b]", 
+      "timestamp": "2017-04-05T20:53:05-07:00", 
+      "_body": "285000a05f640000640000000064b4", 
+      "bg_target_high": 180, 
+      "carb_ratio": 16, 
+      "food_estimate": 2.5, 
+      "unabsorbed_insulin_total": 0, 
+      "correction_estimate": 0, 
+      "carb_input": 40, 
+      "_head": "5b00", 
+      "bolus_estimate": 2.5, 
+      "sensitivity": 95, 
+      "_date": "4535140511"
+    }, 
+    "enteredBy": "openaps://medtronic/723", 
+    "insulin": 2.35, 
+    "eventType": "Meal Bolus", 
+    "duration": 0, 
+    "_id": "58e5bc7665110bbfc1960554", 
+    "notes": "Normal bolus with wizard.\nProgrammed bolus 2.35\nDelivered bolus 2.35\nPercent delivered:  100%\nFood estimate 2.5\nCorrection estimate 0\nBolus estimate 2.5\nTarget low 100\nTarget high 180\nHypothetical glucose delta -223.25", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus"
+  }, 
+  {
     "carbs": 22, 
     "bg": "67", 
     "ratio": "16", 
