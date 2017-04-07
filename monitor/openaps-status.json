@@ -7,78 +7,78 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-04-07T03:25:27.599Z", 
+      "timestamp": "2017-04-07T03:33:25.805Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 75.65, 
-    "clock": "2017-04-06T20:25:17-07:00"
+    "clock": "2017-04-06T20:33:14-07:00"
   }, 
   "uploader": {
-    "battery": 68, 
-    "batteryVoltage": 3855
+    "battery": 65, 
+    "batteryVoltage": 3832
   }, 
   "openaps": {
     "suggested": {
-      "bg": 80, 
+      "bg": 73, 
       "temp": "absolute", 
-      "snoozeBG": 64, 
-      "timestamp": "2017-04-07T03:28:34.897Z", 
+      "snoozeBG": 55, 
+      "timestamp": "2017-04-07T03:36:18.427Z", 
       "predBGs": {
         "IOB": [
-          80, 
-          76, 
           73, 
-          70, 
           67, 
-          65, 
-          64, 
+          61, 
+          56, 
+          52, 
+          48, 
+          45, 
+          43, 
+          42, 
+          42, 
+          42, 
+          43, 
+          45, 
+          48, 
+          50, 
+          52, 
+          55, 
+          58, 
+          60, 
           63, 
-          62, 
-          62, 
-          63, 
-          64, 
           65, 
-          67, 
-          69, 
+          68, 
           70, 
-          72, 
-          74, 
-          76, 
-          78, 
-          80, 
+          73, 
+          75, 
+          77, 
+          79, 
           81, 
-          83, 
+          82, 
           84, 
+          85, 
           86, 
           87, 
+          88, 
           89, 
-          90, 
-          91, 
-          92, 
-          93, 
-          94, 
-          95, 
-          95, 
-          96, 
-          96, 
-          97
+          89, 
+          90
         ]
       }, 
-      "reason": "COB: 0, Dev: -30, BGI: 0.95, ISF: 86, Target: 96; Eventual BG 64 < 96, setting -0.475U/hr, but 22m left and 0 ~ req 0U/hr: no action required", 
+      "reason": "COB: 0, Dev: -39, BGI: 0.91, ISF: 86, Target: 96; Eventual BG 55 < 96, setting -0.9U/hr, but 29m left and 0 ~ req 0U/hr: no action required", 
       "COB": 0, 
-      "eventualBG": 64, 
-      "tick": -3, 
-      "IOB": -0.159
+      "eventualBG": 55, 
+      "tick": -7, 
+      "IOB": -0.243
     }, 
     "iob": {
       "netbasalinsulin": -0.05, 
-      "timestamp": "2017-04-07T03:25:17.000Z", 
-      "activity": -0.0022, 
-      "basaliob": -0.159, 
+      "timestamp": "2017-04-07T03:33:14.000Z", 
+      "activity": -0.0021, 
+      "basaliob": -0.243, 
       "hightempinsulin": 1.05, 
       "bolussnooze": 0, 
-      "iob": -0.159
+      "iob": -0.243
     }, 
     "enacted": {
       "bg": 88, 
@@ -100,9 +100,9 @@
       [
         null, 
         0, 
-        -50.4
+        -49
       ]
     ], 
-    "timestamp": "2017-04-07T03:28:42.767Z"
+    "timestamp": "2017-04-07T03:36:26.247Z"
   }
 }
