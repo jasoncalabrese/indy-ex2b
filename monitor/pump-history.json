@@ -1,5 +1,36 @@
 [
   {
+    "programmed": 2.0, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2017-04-06T20:46:49 head[8], body[0] op[0x01]", 
+    "timestamp": "2017-04-06T20:46:49", 
+    "_body": "", 
+    "_head": "0100500050000000", 
+    "amount": 2.0, 
+    "unabsorbed": 0.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "712e340611"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 65, 
+    "bg_target_high": 180, 
+    "_description": "BolusWizard 2017-04-06T20:46:49 head[2], body[15] op[0x5b]", 
+    "timestamp": "2017-04-06T20:46:49", 
+    "_body": "265000a05f64f2005ef800000050b4", 
+    "_head": "5b41", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 50.85, 
+    "_date": "712e140611", 
+    "bolus_estimate": 2.0, 
+    "bg_target_low": 100, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 2.35, 
+    "carb_input": 38, 
+    "sensitivity": 95
+  }, 
+  {
     "_type": "BGReceived", 
     "link": "c23647", 
     "_description": "BGReceived 2017-04-06T20:38:48 head[2], body[3] op[0x3f]", 
