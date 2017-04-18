@@ -1,12 +1,9 @@
 {
-  "bg": 78, 
+  "bg": 79, 
   "temp": "absolute", 
-  "snoozeBG": 98, 
+  "snoozeBG": 96, 
   "predBGs": {
     "IOB": [
-      78, 
-      78, 
-      79, 
       79, 
       80, 
       80, 
@@ -14,6 +11,7 @@
       82, 
       83, 
       84, 
+      85, 
       86, 
       87, 
       89, 
@@ -24,7 +22,6 @@
       96, 
       97, 
       98, 
-      98, 
       99, 
       100, 
       100, 
@@ -32,19 +29,15 @@
       101, 
       102, 
       102, 
-      102, 
-      103, 
-      103, 
-      103, 
       103, 
       103, 
       103, 
       104
     ]
   }, 
-  "reason": "COB: 0, Dev: -10, BGI: 2.09, ISF: 95, Target: 100; Eventual BG 98 < 100, temp 0.5 ~< req 0.625U/hr", 
+  "reason": "COB: 0, Dev: -10, BGI: 2.14, ISF: 95, Target: 100; Eventual BG 96 < 100, temp 0.5 ~< req 0.525U/hr", 
   "COB": 0, 
-  "eventualBG": 98, 
-  "tick": "+0", 
-  "IOB": -0.32
+  "eventualBG": 96, 
+  "tick": "+1", 
+  "IOB": -0.285
 }
