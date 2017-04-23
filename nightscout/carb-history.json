@@ -229,15 +229,5 @@
     "_id": "58fb89b865110bbfc19630fd", 
     "notes": "Food estimate 0.6\nCorrection estimate 0\nBolus estimate 0.6\nTarget low 100\nTarget high 180\nHypothetical glucose delta 0", 
     "medtronic": "mm://openaps/mm-format-ns-treatments/Carb Correction"
-  }, 
-  {
-    "carbs": 7, 
-    "eventType": "Carb Correction", 
-    "created_at": "2017-04-21T22:41:55.892Z", 
-    "enteredBy": "Dad", 
-    "reason": "", 
-    "insulin": null, 
-    "duration": 0, 
-    "_id": "58fa8ab365110bbfc1962eed"
   }
 ]
