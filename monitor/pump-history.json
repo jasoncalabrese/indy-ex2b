@@ -2,6 +2,44 @@
   {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
+    "_description": "TempBasalDuration 2017-04-26T15:07:31 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-04-26T15:07:31", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "5f070f5a11"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-04-26T15:07:31 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-04-26T15:07:31", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "5f070f5a11"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2017-04-26T15:06:11 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-04-26T15:06:11", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "4b060f5a11"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-04-26T15:06:11 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-04-26T15:06:11", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "4b060f5a11"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
     "_description": "TempBasalDuration 2017-04-26T14:52:48 head[2], body[0] op[0x16]", 
     "timestamp": "2017-04-26T14:52:48", 
     "_body": "", 
@@ -854,43 +892,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "7810095a11"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2017-04-26T08:58:18 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-04-26T08:58:18", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "523a085a11"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-04-26T08:58:18 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-04-26T08:58:18", 
-    "_body": "00", 
-    "_head": "3302", 
-    "rate": 0.05, 
-    "_date": "523a085a11"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2017-04-26T08:53:49 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-04-26T08:53:49", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "7135085a11"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-04-26T08:53:49 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-04-26T08:53:49", 
-    "_body": "00", 
-    "_head": "3327", 
-    "rate": 0.975, 
-    "_date": "7135085a11"
   }
 ]
