@@ -1,15 +1,15 @@
 [
   {
-    "created_at": "2017-04-27T11:49:59.080Z", 
+    "created_at": "2017-04-27T12:04:23.578Z", 
     "mmtune": {
       "scanDetails": [
         [
           null, 
           0, 
-          -79.6
+          -78.2
         ]
       ], 
-      "timestamp": "2017-04-27T11:49:44.666Z"
+      "timestamp": "2017-04-27T12:04:09.305Z"
     }, 
     "pump": {
       "battery": {
@@ -18,78 +18,96 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-04-27T11:46:35.963Z", 
+        "timestamp": "2017-04-27T11:58:13.192Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 101.575, 
-      "clock": "2017-04-27T04:46:31-07:00"
+      "reservoir": 101.325, 
+      "clock": "2017-04-27T04:58:03-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 175, 
+        "bg": 167, 
         "temp": "absolute", 
-        "snoozeBG": 132, 
-        "timestamp": "2017-04-27T11:49:36.685Z", 
-        "predBGs": {
-          "IOB": [
-            175, 
-            176, 
-            176, 
-            175, 
-            174, 
-            173, 
-            171, 
-            169, 
-            167, 
-            164, 
-            160, 
-            157, 
-            153, 
-            149, 
-            145, 
-            142, 
-            138, 
-            135, 
-            132, 
-            129, 
-            126, 
-            123, 
-            121, 
-            119, 
-            118, 
-            116, 
-            115, 
-            114, 
-            113, 
-            112, 
-            111, 
-            110, 
-            110, 
-            109
-          ]
-        }, 
-        "reason": "COB: 0, Dev: 25, BGI: -3.21, ISF: 93, Target: 99; Eventual BG 132 >= 99, temp 1.3 >~ req 1.3U/hr", 
+        "snoozeBG": 89, 
+        "timestamp": "2017-04-27T12:02:38.074Z", 
+        "rate": 0.175, 
+        "reason": "COB: 0, Dev: -9, BGI: -3.58, ISF: 93, Target: 99; Eventual BG 89 < 99, setting 0.175U/hr", 
         "COB": 0, 
-        "eventualBG": 132, 
-        "tick": "+1", 
-        "IOB": 0.727
+        "eventualBG": 89, 
+        "duration": 30, 
+        "tick": -8, 
+        "IOB": 0.74
       }, 
       "iob": {
-        "netbasalinsulin": 1.15, 
-        "timestamp": "2017-04-27T11:46:31.000Z", 
-        "activity": 0.0069, 
-        "basaliob": 0.727, 
-        "hightempinsulin": 1.3, 
+        "netbasalinsulin": 1.25, 
+        "timestamp": "2017-04-27T11:58:03.000Z", 
+        "activity": 0.0077, 
+        "basaliob": 0.74, 
+        "hightempinsulin": 1.4, 
         "bolussnooze": 0, 
-        "iob": 0.727
+        "iob": 0.74
+      }, 
+      "enacted": {
+        "bg": 167, 
+        "temp": "absolute", 
+        "snoozeBG": 89, 
+        "recieved": true, 
+        "predBGs": {
+          "IOB": [
+            167, 
+            159, 
+            152, 
+            145, 
+            138, 
+            132, 
+            125, 
+            120, 
+            114, 
+            109, 
+            104, 
+            100, 
+            96, 
+            93, 
+            89, 
+            86, 
+            82, 
+            79, 
+            76, 
+            74, 
+            71, 
+            69, 
+            67, 
+            65, 
+            64, 
+            62, 
+            61, 
+            60, 
+            59, 
+            59, 
+            58, 
+            58, 
+            57, 
+            57, 
+            57, 
+            56
+          ]
+        }, 
+        "reason": "COB: 0, Dev: -9, BGI: -3.58, ISF: 93, Target: 99; Eventual BG 89 < 99, setting 0.175U/hr", 
+        "rate": 0.175, 
+        "COB": 0, 
+        "eventualBG": 89, 
+        "timestamp": "2017-04-27T12:04:00.765Z", 
+        "duration": 30, 
+        "tick": -8, 
+        "IOB": 0.74
       }
     }, 
     "uploader": {
       "battery": 68, 
-      "batteryVoltage": 3858
+      "batteryVoltage": 3860
     }, 
     "device": "openaps://indy-ex2", 
-    "_id": "5901dae7b4f9e2056255eeda"
+    "_id": "5901de47b4f9e2056255eee0"
   }
 ]
