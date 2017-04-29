@@ -127,41 +127,5 @@
     "insulin": null, 
     "duration": 10, 
     "_id": "5903774865110bbfc1964142"
-  }, 
-  {
-    "carbs": null, 
-    "eventType": "Temporary Target", 
-    "created_at": "2017-04-28T15:33:05.020Z", 
-    "targetBottom": 140, 
-    "enteredBy": "Maker", 
-    "targetTop": 140, 
-    "reason": "Activity Mode", 
-    "insulin": null, 
-    "duration": 45, 
-    "_id": "590360b165110bbfc1964124"
-  }, 
-  {
-    "carbs": null, 
-    "eventType": "Temporary Target", 
-    "created_at": "2017-04-28T15:33:04.272Z", 
-    "targetBottom": 140, 
-    "enteredBy": "Maker", 
-    "targetTop": 140, 
-    "reason": "Activity Mode", 
-    "insulin": null, 
-    "duration": 45, 
-    "_id": "590360b065110bbfc1964123"
-  }, 
-  {
-    "carbs": null, 
-    "eventType": "Temporary Target", 
-    "created_at": "2017-04-28T15:33:03.472Z", 
-    "targetBottom": 140, 
-    "enteredBy": "Maker", 
-    "targetTop": 140, 
-    "reason": "Activity Mode", 
-    "insulin": null, 
-    "duration": 45, 
-    "_id": "590360af65110bbfc1964122"
   }
 ]
