@@ -2,6 +2,82 @@
   {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
+    "_description": "TempBasalDuration 2017-04-29T16:13:29 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-04-29T16:13:29", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "5d0d105d11"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-04-29T16:13:29 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-04-29T16:13:29", 
+    "_body": "00", 
+    "_head": "333a", 
+    "rate": 1.45, 
+    "_date": "5d0d105d11"
+  }, 
+  {
+    "_type": "BGReceived", 
+    "link": "c23647", 
+    "_description": "BGReceived 2017-04-29T16:13:24 head[2], body[3] op[0x3f]", 
+    "timestamp": "2017-04-29T16:13:24", 
+    "_body": "c23647", 
+    "_head": "3f0d", 
+    "amount": 104, 
+    "_date": "580d107d11"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2017-04-29T16:13:24 head[2], body[0] op[0x0a]", 
+    "timestamp": "2017-04-29T16:13:24", 
+    "_body": "", 
+    "_head": "0a68", 
+    "amount": 104, 
+    "_date": "580d307d11"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2017-04-29T16:13:08 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-04-29T16:13:08", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "480d105d11"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-04-29T16:13:08 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-04-29T16:13:08", 
+    "_body": "00", 
+    "_head": "3339", 
+    "rate": 1.425, 
+    "_date": "480d105d11"
+  }, 
+  {
+    "_type": "BGReceived", 
+    "link": "c23647", 
+    "_description": "BGReceived 2017-04-29T16:12:16 head[2], body[3] op[0x3f]", 
+    "timestamp": "2017-04-29T16:12:16", 
+    "_body": "c23647", 
+    "_head": "3f0c", 
+    "amount": 103, 
+    "_date": "500cf07d11"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2017-04-29T16:12:16 head[2], body[0] op[0x0a]", 
+    "timestamp": "2017-04-29T16:12:16", 
+    "_body": "", 
+    "_head": "0a67", 
+    "amount": 103, 
+    "_date": "500c307d11"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
     "_description": "TempBasalDuration 2017-04-29T16:07:08 head[2], body[0] op[0x16]", 
     "timestamp": "2017-04-29T16:07:08", 
     "_body": "", 
