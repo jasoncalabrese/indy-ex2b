@@ -1,15 +1,15 @@
 [
   {
-    "created_at": "2017-04-30T13:16:45.762Z", 
+    "created_at": "2017-04-30T13:39:40.542Z", 
     "mmtune": {
       "scanDetails": [
         [
           null, 
           0, 
-          -79
+          -78.4
         ]
       ], 
-      "timestamp": "2017-04-30T13:16:32.015Z"
+      "timestamp": "2017-04-30T13:39:26.669Z"
     }, 
     "pump": {
       "battery": {
@@ -18,81 +18,74 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-04-30T13:11:38.612Z", 
+        "timestamp": "2017-04-30T13:34:58.977Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 7.625, 
-      "clock": "2017-04-30T06:11:37-07:00"
+      "reservoir": 7.375, 
+      "clock": "2017-04-30T06:34:57-07:00"
     }, 
     "openaps": {
       "suggested": {
         "bg": 118, 
         "temp": "absolute", 
-        "snoozeBG": 99, 
-        "timestamp": "2017-04-30T13:15:03.044Z", 
-        "rate": 0.6, 
-        "reason": "COB: 0, Dev: -7, BGI: -1.91, ISF: 93, Target: 99; Eventual BG 99 > 99 but Min. Delta -3.14 < Exp. Delta -1.9; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
+        "snoozeBG": 114, 
+        "timestamp": "2017-04-30T13:39:18.829Z", 
+        "predBGs": {
+          "IOB": [
+            118, 
+            118, 
+            117, 
+            117, 
+            116, 
+            116, 
+            116, 
+            115, 
+            115, 
+            114, 
+            114, 
+            114, 
+            113, 
+            113, 
+            113, 
+            112, 
+            112, 
+            112, 
+            111, 
+            111, 
+            111, 
+            111, 
+            110, 
+            110, 
+            110, 
+            110, 
+            109, 
+            109, 
+            109, 
+            109, 
+            108
+          ]
+        }, 
+        "reason": "COB: 0, Dev: 5, BGI: -1.3, ISF: 93, Target: 99; Eventual BG 114 >= 99, temp 0.8<0.85U/hr, but 28m left and 0.8 ~ req 0.85U/hr: no action required", 
         "COB": 0, 
-        "eventualBG": 99, 
-        "duration": 30, 
-        "tick": -3, 
-        "IOB": 0.125
+        "eventualBG": 114, 
+        "tick": "+0", 
+        "IOB": 0.098
       }, 
       "iob": {
         "netbasalinsulin": 0.45, 
-        "timestamp": "2017-04-30T13:11:37.000Z", 
-        "activity": 0.0041, 
-        "basaliob": 0.125, 
+        "timestamp": "2017-04-30T13:34:57.000Z", 
+        "activity": 0.0028, 
+        "basaliob": 0.098, 
         "hightempinsulin": 0.55, 
         "bolussnooze": 0, 
-        "iob": 0.125
+        "iob": 0.098
       }, 
       "enacted": {
         "bg": 118, 
         "temp": "absolute", 
         "snoozeBG": 99, 
         "recieved": true, 
-        "predBGs": {
-          "IOB": [
-            118, 
-            115, 
-            112, 
-            110, 
-            107, 
-            105, 
-            104, 
-            102, 
-            101, 
-            100, 
-            99, 
-            98, 
-            98, 
-            97, 
-            97, 
-            97, 
-            98, 
-            98, 
-            98, 
-            99, 
-            99, 
-            99, 
-            100, 
-            100, 
-            100, 
-            101, 
-            101, 
-            101, 
-            101, 
-            102, 
-            102, 
-            102, 
-            102, 
-            102, 
-            102, 
-            103
-          ]
-        }, 
         "reason": "COB: 0, Dev: -7, BGI: -1.91, ISF: 93, Target: 99; Eventual BG 99 > 99 but Min. Delta -3.14 < Exp. Delta -1.9; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
         "rate": 0.6, 
         "COB": 0, 
@@ -104,10 +97,10 @@
       }
     }, 
     "uploader": {
-      "battery": 68, 
-      "batteryVoltage": 3862
+      "battery": 67, 
+      "batteryVoltage": 3851
     }, 
     "device": "openaps://indy-ex2", 
-    "_id": "5905e3bd437bfc1199b2b9b9"
+    "_id": "5905e91c437bfc1199b2b9c0"
   }
 ]
