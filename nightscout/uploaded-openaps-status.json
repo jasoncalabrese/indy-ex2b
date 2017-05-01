@@ -1,15 +1,15 @@
 [
   {
-    "created_at": "2017-05-01T08:12:27.829Z", 
+    "created_at": "2017-05-01T08:40:04.764Z", 
     "mmtune": {
       "scanDetails": [
         [
           null, 
           0, 
-          -79.8
+          -92.8
         ]
       ], 
-      "timestamp": "2017-05-01T08:12:14.117Z"
+      "timestamp": "2017-05-01T08:39:50.412Z"
     }, 
     "pump": {
       "battery": {
@@ -18,73 +18,67 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-05-01T08:08:38.933Z", 
+        "timestamp": "2017-05-01T08:36:48.930Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 113.125, 
-      "clock": "2017-05-01T01:08:37-07:00"
+      "reservoir": 112.825, 
+      "clock": "2017-05-01T01:36:46-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 78, 
+        "bg": 70, 
         "temp": "absolute", 
-        "snoozeBG": 93, 
-        "timestamp": "2017-05-01T08:12:06.237Z", 
+        "snoozeBG": 75, 
+        "timestamp": "2017-05-01T08:39:42.522Z", 
         "predBGs": {
           "IOB": [
-            78, 
-            76, 
-            75, 
+            70, 
+            66, 
+            63, 
+            61, 
+            59, 
+            58, 
+            57, 
+            56, 
+            56, 
+            57, 
+            58, 
+            59, 
+            61, 
+            63, 
+            65, 
+            66, 
+            67, 
+            69, 
+            70, 
+            71, 
+            71, 
+            72, 
+            73, 
+            73, 
+            73, 
             74, 
-            73, 
-            73, 
-            73, 
-            73, 
             74, 
-            75, 
-            77, 
-            78, 
-            80, 
-            82, 
-            85, 
-            87, 
-            89, 
-            91, 
-            93, 
-            95, 
-            97, 
-            98, 
-            100, 
-            101, 
-            102, 
-            104, 
-            104, 
-            105, 
-            106, 
-            107, 
-            107, 
-            108, 
-            108, 
-            108, 
-            108, 
-            109
+            74, 
+            74, 
+            75
           ]
         }, 
-        "reason": "COB: 0, Dev: -17, BGI: 0.61, ISF: 94, Target: 100; Eventual BG 93 < 100, temp 0.475 ~< req 0.675U/hr", 
+        "reason": "COB: 0, Dev: -29, BGI: 1.6, ISF: 94, Target: 100; BG 70<75, but 30m left and 0 ~ req 0U/hr: no action required", 
         "COB": 0, 
-        "eventualBG": 93, 
-        "tick": -1, 
-        "IOB": -0.336
+        "eventualBG": 75, 
+        "tick": -4, 
+        "IOB": -0.361
       }, 
       "iob": {
-        "netbasalinsulin": -0.15, 
-        "timestamp": "2017-05-01T08:08:37.000Z", 
-        "activity": -0.0013, 
-        "basaliob": -0.336, 
-        "hightempinsulin": 0.55, 
+        "netbasalinsulin": -0.55, 
+        "timestamp": "2017-05-01T08:36:46.000Z", 
+        "activity": -0.0034, 
+        "basaliob": -0.361, 
+        "hightempinsulin": 0.25, 
         "bolussnooze": 0, 
-        "iob": -0.336
+        "iob": -0.361
       }, 
       "enacted": {
         "bg": 83, 
@@ -103,9 +97,9 @@
     }, 
     "uploader": {
       "battery": 68, 
-      "batteryVoltage": 3861
+      "batteryVoltage": 3859
     }, 
     "device": "openaps://indy-ex2", 
-    "_id": "5906edebab1fbf78dcd15464"
+    "_id": "5906f464ab1fbf78dcd1546d"
   }
 ]
