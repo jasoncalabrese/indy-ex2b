@@ -1,6 +1,6 @@
 [
   {
-    "created_at": "2017-05-02T07:46:04.824Z", 
+    "created_at": "2017-05-02T07:55:27.987Z", 
     "mmtune": {
       "scanDetails": [
         [
@@ -9,7 +9,7 @@
           -74
         ]
       ], 
-      "timestamp": "2017-05-02T07:45:50.846Z"
+      "timestamp": "2017-05-02T07:55:14.124Z"
     }, 
     "pump": {
       "battery": {
@@ -18,72 +18,32 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2017-05-02T07:39:33.140Z", 
+        "timestamp": "2017-05-02T07:50:37.200Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 87.5, 
-      "clock": "2017-05-02T00:39:32-07:00"
+      "reservoir": 87.25, 
+      "clock": "2017-05-02T00:50:36-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 116, 
-        "temp": "absolute", 
-        "snoozeBG": 131, 
-        "timestamp": "2017-05-02T07:44:40.035Z", 
-        "rate": 1.45, 
-        "reason": "COB: 0, Dev: 0, BGI: -0.21, ISF: 104, Target: 104; Eventual BG 131 >= 104, temp 1<1.45U/hr", 
-        "COB": 0, 
-        "eventualBG": 131, 
-        "duration": 30, 
-        "tick": "+1", 
-        "IOB": -0.155
+        "timestamp": "2017-05-02T07:55:01.254Z", 
+        "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Tue May 02 2017 00:44:20 GMT-0700 (PDT) but your system time is Tue May 02 2017 00:55:01 GMT-0700 (PDT)"
       }, 
       "iob": {
-        "netbasalinsulin": 0.45, 
-        "timestamp": "2017-05-02T07:39:32.000Z", 
-        "activity": 0.0004, 
-        "basaliob": -0.155, 
-        "hightempinsulin": 0.8, 
+        "netbasalinsulin": 0.3, 
+        "timestamp": "2017-05-02T07:50:36.000Z", 
+        "activity": -0.0004, 
+        "basaliob": -0.102, 
+        "hightempinsulin": 0.65, 
         "bolussnooze": 0, 
-        "iob": -0.155
+        "iob": -0.102
       }, 
       "enacted": {
         "bg": 116, 
         "temp": "absolute", 
         "snoozeBG": 131, 
         "recieved": true, 
-        "predBGs": {
-          "IOB": [
-            116, 
-            116, 
-            116, 
-            116, 
-            116, 
-            117, 
-            117, 
-            118, 
-            118, 
-            119, 
-            120, 
-            121, 
-            122, 
-            123, 
-            124, 
-            125, 
-            126, 
-            127, 
-            127, 
-            128, 
-            129, 
-            129, 
-            129, 
-            130, 
-            130, 
-            130, 
-            131
-          ]
-        }, 
         "reason": "COB: 0, Dev: 0, BGI: -0.21, ISF: 104, Target: 104; Eventual BG 131 >= 104, temp 1<1.45U/hr", 
         "rate": 1.45, 
         "COB": 0, 
@@ -99,6 +59,6 @@
       "batteryVoltage": 3837
     }, 
     "device": "openaps://indy-ex2", 
-    "_id": "5908393cab1fbf78dcd155f1"
+    "_id": "59083b6fab1fbf78dcd155f4"
   }
 ]
